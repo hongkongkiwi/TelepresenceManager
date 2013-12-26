@@ -9,11 +9,25 @@
 #import "ViewController.h"
 #import "TelepresenceManager.h"
 
+static double widgetHeight = 240;
+static double widgetWidth = 320;
+
+// *** Fill the following variables using your own Project info from the Dashboard  ***
+// ***                   https://dashboard.tokbox.com/projects                      ***
+static NSString* const kApiKey = @"";    // Replace with your OpenTok API key
+static NSString* const kSessionId = @""; // Replace with your generated session ID
+static NSString* const kToken = @"";     // Replace with your generated token (use the Dashboard or an OpenTok server-side library)
+
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
 
 - (void)viewDidLoad
 {
@@ -46,7 +60,7 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self name:TelepresenceManagerNotificationId object:[TelepresenceManager sharedInstance]];
 }
      
- - (void) onTelepresenceManagerNotification:(NSNotification *)note {
+- (void) onTelepresenceManagerNotification:(NSNotification *)note {
      NSDictionary *userInfo = note.userInfo;
      
      if (!userInfo) {

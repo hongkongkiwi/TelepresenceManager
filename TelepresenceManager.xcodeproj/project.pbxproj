@@ -25,6 +25,24 @@
 		A193B71D186BE3B700AE50C4 /* TelepresenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A193B71C186BE3B700AE50C4 /* TelepresenceManager.m */; };
 		A193B71F186BE80700AE50C4 /* Opentok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B71E186BE80700AE50C4 /* Opentok.framework */; };
 		A193B721186BE81E00AE50C4 /* opentok.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A193B720186BE81E00AE50C4 /* opentok.bundle */; };
+		A193B735186C76F200AE50C4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B724186C76F200AE50C4 /* CoreTelephony.framework */; };
+		A193B736186C76F200AE50C4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B725186C76F200AE50C4 /* MobileCoreServices.framework */; };
+		A193B737186C76F200AE50C4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B726186C76F200AE50C4 /* CFNetwork.framework */; };
+		A193B738186C76F200AE50C4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B727186C76F200AE50C4 /* SystemConfiguration.framework */; };
+		A193B739186C76F200AE50C4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B728186C76F200AE50C4 /* CoreMedia.framework */; };
+		A193B73A186C76F200AE50C4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B729186C76F200AE50C4 /* Security.framework */; };
+		A193B73B186C76F200AE50C4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B72A186C76F200AE50C4 /* AudioToolbox.framework */; };
+		A193B73C186C76F200AE50C4 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B72B186C76F200AE50C4 /* CoreAudio.framework */; };
+		A193B73D186C76F200AE50C4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B72C186C76F200AE50C4 /* CoreVideo.framework */; };
+		A193B73E186C76F200AE50C4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B72D186C76F200AE50C4 /* OpenGLES.framework */; };
+		A193B73F186C76F200AE50C4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B72E186C76F200AE50C4 /* libz.dylib */; };
+		A193B740186C76F200AE50C4 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B72F186C76F200AE50C4 /* libstdc++.dylib */; };
+		A193B741186C76F200AE50C4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B730186C76F200AE50C4 /* QuartzCore.framework */; };
+		A193B742186C76F200AE50C4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B731186C76F200AE50C4 /* AVFoundation.framework */; };
+		A193B743186C76F200AE50C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B732186C76F200AE50C4 /* UIKit.framework */; };
+		A193B744186C76F200AE50C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B733186C76F200AE50C4 /* Foundation.framework */; };
+		A193B745186C76F200AE50C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193B734186C76F200AE50C4 /* CoreGraphics.framework */; };
+		A193B74B186C7C9300AE50C4 /* InCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A193B74A186C7C9300AE50C4 /* InCallViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +80,25 @@
 		A193B71C186BE3B700AE50C4 /* TelepresenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelepresenceManager.m; sourceTree = "<group>"; };
 		A193B71E186BE80700AE50C4 /* Opentok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Opentok.framework; path = "SDKs/opentok-ios-sdk-webrtc/Opentok.framework"; sourceTree = "<group>"; };
 		A193B720186BE81E00AE50C4 /* opentok.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = opentok.bundle; path = "SDKs/opentok-ios-sdk-webrtc/Opentok.framework/Versions/A/Resources/opentok.bundle"; sourceTree = "<group>"; };
+		A193B724186C76F200AE50C4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A193B725186C76F200AE50C4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A193B726186C76F200AE50C4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A193B727186C76F200AE50C4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A193B728186C76F200AE50C4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A193B729186C76F200AE50C4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A193B72A186C76F200AE50C4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A193B72B186C76F200AE50C4 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		A193B72C186C76F200AE50C4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A193B72D186C76F200AE50C4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A193B72E186C76F200AE50C4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A193B72F186C76F200AE50C4 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		A193B730186C76F200AE50C4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A193B731186C76F200AE50C4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A193B732186C76F200AE50C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A193B733186C76F200AE50C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A193B734186C76F200AE50C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A193B749186C7C9300AE50C4 /* InCallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InCallViewController.h; sourceTree = "<group>"; };
+		A193B74A186C7C9300AE50C4 /* InCallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InCallViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +108,24 @@
 			files = (
 				A193B6E6186BE34A00AE50C4 /* CoreGraphics.framework in Frameworks */,
 				A193B71F186BE80700AE50C4 /* Opentok.framework in Frameworks */,
+				A193B742186C76F200AE50C4 /* AVFoundation.framework in Frameworks */,
+				A193B745186C76F200AE50C4 /* CoreGraphics.framework in Frameworks */,
+				A193B741186C76F200AE50C4 /* QuartzCore.framework in Frameworks */,
+				A193B737186C76F200AE50C4 /* CFNetwork.framework in Frameworks */,
+				A193B73B186C76F200AE50C4 /* AudioToolbox.framework in Frameworks */,
+				A193B743186C76F200AE50C4 /* UIKit.framework in Frameworks */,
+				A193B73D186C76F200AE50C4 /* CoreVideo.framework in Frameworks */,
+				A193B739186C76F200AE50C4 /* CoreMedia.framework in Frameworks */,
+				A193B735186C76F200AE50C4 /* CoreTelephony.framework in Frameworks */,
+				A193B73E186C76F200AE50C4 /* OpenGLES.framework in Frameworks */,
+				A193B73C186C76F200AE50C4 /* CoreAudio.framework in Frameworks */,
+				A193B736186C76F200AE50C4 /* MobileCoreServices.framework in Frameworks */,
+				A193B73A186C76F200AE50C4 /* Security.framework in Frameworks */,
+				A193B73F186C76F200AE50C4 /* libz.dylib in Frameworks */,
+				A193B744186C76F200AE50C4 /* Foundation.framework in Frameworks */,
+				A193B740186C76F200AE50C4 /* libstdc++.dylib in Frameworks */,
 				A193B6E8186BE34A00AE50C4 /* UIKit.framework in Frameworks */,
+				A193B738186C76F200AE50C4 /* SystemConfiguration.framework in Frameworks */,
 				A193B6E4186BE34A00AE50C4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -112,6 +166,23 @@
 		A193B6E2186BE34A00AE50C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A193B724186C76F200AE50C4 /* CoreTelephony.framework */,
+				A193B725186C76F200AE50C4 /* MobileCoreServices.framework */,
+				A193B726186C76F200AE50C4 /* CFNetwork.framework */,
+				A193B727186C76F200AE50C4 /* SystemConfiguration.framework */,
+				A193B728186C76F200AE50C4 /* CoreMedia.framework */,
+				A193B729186C76F200AE50C4 /* Security.framework */,
+				A193B72A186C76F200AE50C4 /* AudioToolbox.framework */,
+				A193B72B186C76F200AE50C4 /* CoreAudio.framework */,
+				A193B72C186C76F200AE50C4 /* CoreVideo.framework */,
+				A193B72D186C76F200AE50C4 /* OpenGLES.framework */,
+				A193B72E186C76F200AE50C4 /* libz.dylib */,
+				A193B72F186C76F200AE50C4 /* libstdc++.dylib */,
+				A193B730186C76F200AE50C4 /* QuartzCore.framework */,
+				A193B731186C76F200AE50C4 /* AVFoundation.framework */,
+				A193B732186C76F200AE50C4 /* UIKit.framework */,
+				A193B733186C76F200AE50C4 /* Foundation.framework */,
+				A193B734186C76F200AE50C4 /* CoreGraphics.framework */,
 				A193B6E3186BE34A00AE50C4 /* Foundation.framework */,
 				A193B6E5186BE34A00AE50C4 /* CoreGraphics.framework */,
 				A193B6E7186BE34A00AE50C4 /* UIKit.framework */,
@@ -129,6 +200,8 @@
 				A193B6F8186BE34A00AE50C4 /* Main_iPad.storyboard */,
 				A193B6FB186BE34A00AE50C4 /* ViewController.h */,
 				A193B6FC186BE34A00AE50C4 /* ViewController.m */,
+				A193B749186C7C9300AE50C4 /* InCallViewController.h */,
+				A193B74A186C7C9300AE50C4 /* InCallViewController.m */,
 				A193B6FE186BE34A00AE50C4 /* Images.xcassets */,
 				A193B6EA186BE34A00AE50C4 /* Supporting Files */,
 				A193B71B186BE3B700AE50C4 /* TelepresenceManager.h */,
@@ -283,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A193B6FD186BE34A00AE50C4 /* ViewController.m in Sources */,
+				A193B74B186C7C9300AE50C4 /* InCallViewController.m in Sources */,
 				A193B6F4186BE34A00AE50C4 /* AppDelegate.m in Sources */,
 				A193B71D186BE3B700AE50C4 /* TelepresenceManager.m in Sources */,
 				A193B6F0186BE34A00AE50C4 /* main.m in Sources */,
@@ -376,7 +450,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -410,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -424,12 +498,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/andy/Development/xcode/TelepresenceManager/SDKs/opentok-ios-sdk-webrtc",
+					"$(SRCROOT)/SDKs/opentok-ios-sdk-webrtc",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TelepresenceManager/TelepresenceManager-Prefix.pch";
 				INFOPLIST_FILE = "TelepresenceManager/TelepresenceManager-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -441,12 +516,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/andy/Development/xcode/TelepresenceManager/SDKs/opentok-ios-sdk-webrtc",
+					"$(SRCROOT)/SDKs/opentok-ios-sdk-webrtc",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TelepresenceManager/TelepresenceManager-Prefix.pch";
 				INFOPLIST_FILE = "TelepresenceManager/TelepresenceManager-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

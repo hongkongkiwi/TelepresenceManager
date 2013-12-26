@@ -190,7 +190,7 @@ static id _sharedObject = nil;
     if ([self isLoggingLevelEnabled:TPLoggingLevel_CallSignalling]) {
         NSLog(@"CALLSIGNALING: Received Call Signal");
         NSLog(@"- fromConnection %@", connectionId);
-        NSLog(@"- callSignal %d", callSignal);
+        NSLog(@"- callSignal %lu", callSignal);
     }
     
     // If the publisher is not null, then we are currently in a call
@@ -608,7 +608,7 @@ static id _sharedObject = nil;
  */
 -(void)publisher:(OTPublisher*)publisher didChangeCameraPosition:(AVCaptureDevicePosition)position {
     if ([self isLoggingLevelEnabled:TPLoggingLevel_Publisher]) {
-        NSLog(@"PUBLISHER: publisherDidChangeCameraPosition - position: %d", position);
+        NSLog(@"PUBLISHER: publisherDidChangeCameraPosition - position: %ld", position);
     }
     [self sendBroadcast:TPM_PublisherCameraPositionChanged data:@{@"cameraPosition": @(position)}];
 }
